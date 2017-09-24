@@ -22,6 +22,8 @@ class TestsTest1Tests: XCTestCase {
     }
     
     func testExample() {
+        let vc = ViewController(nibName: nil, bundle: nil)
+        vc.someTestedFunction()
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
