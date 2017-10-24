@@ -14,28 +14,22 @@ class NextPr: UIResponder, UIApplicationDelegate {
 
    func testowo(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
        // Override point for customization after application launch. Tratatatatatatatattata
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-       calc()
-
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
+       print("I'm untested")
        return true
    }
-
-   func calc() -> Bool {
-       return true
-   }
-
 }
