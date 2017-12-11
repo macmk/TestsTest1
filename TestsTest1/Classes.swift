@@ -16,6 +16,14 @@ class B: A {
     
 }
 
+class C: B {
+    
+}
+
+class D: A, P {
+    
+}
+
 protocol P {
     
 }
