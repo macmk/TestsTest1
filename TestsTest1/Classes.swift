@@ -20,8 +20,20 @@ class C: B {
     
 }
 
-class D: A, P {
+class D: A {
+    let z = C()
+    let z2: E = E()
     
+    func funcD() {
+        let x = B()
+        let y: A = A()
+    }
+}
+
+class E {
+    func funcE(a: A) {
+        
+    }
 }
 
 protocol P {
