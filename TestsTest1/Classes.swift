@@ -37,6 +37,7 @@ class A4: A3 {}
 class A5: A4 {}
 class A6: A5 {}
 class A7: A6 {}
+class A72: A6 {}
 
 class E {
     func funcE(a: A) {
