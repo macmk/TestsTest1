@@ -13,11 +13,15 @@ class A: P {
     let z2: E = E()
     
     func funcD() {
-        let a3 = A3()
         let y: A = A()
-        let a4 = A4()
-        let a5 = A5()
-        let a6 = A6()
+        let a3 = A3()
+        
+        let e2 = E2()
+        let e3 = E3()
+        let e4 = E4()
+        let e5 = E5()
+        let e6 = E6()
+        let e7 = E7()
     }
 }
 
@@ -32,12 +36,20 @@ class A3: A2 {}
 class A4: A3 {}
 class A5: A4 {}
 class A6: A5 {}
+class A7: A6 {}
 
 class E {
     func funcE(a: A) {
         
     }
 }
+
+class E2: E {}
+class E3: E2 {}
+class E4: E3 {}
+class E5: E4 {}
+class E6: E5 {}
+class E7: E6 {}
 
 protocol P {
     
